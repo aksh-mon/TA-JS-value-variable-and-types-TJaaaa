@@ -31,12 +31,18 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+let count = +prompt("Enter the number of e!")
 
-let word = 'hello';
+const start = "h";
+const end = "llo";
 
-let count = 3;
+let middle = "";
 
-word.repeat(count);
+for (let i =0; i < count; i++){
+  middle += "e";
+}
+alert(start + middle + end);
+
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
